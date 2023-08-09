@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.13.0.v202303021806</property>
+    <styles>
+        <style name="crosstab" id="2">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+        <style name="crosstab-cell" id="3">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+    </styles>
+    <page-setup>
+        <simple-master-page name="Page Master" id="4"/>
+    </page-setup>
+    <body>
+        <grid id="5">
+            <property name="width">100%</property>
+            <column id="6"/>
+            <column id="7"/>
+            <row id="8">
+                <cell id="9">
+                    <image id="11">
+                        <property name="source">url</property>
+                        <expression name="uri">"http://www.eclipse.org/birt/phoenix/tutorial/basic/multichip-4.jpg"</expression>
+                    </image>
+                </cell>
+                <cell id="10">
+                    <label id="12">
+                        <property name="fontWeight">bold</property>
+                        <text-property name="text">Hello, world!</text-property>
+                    </label>
+                </cell>
+            </row>
+        </grid>
+    </body>
+</report>
